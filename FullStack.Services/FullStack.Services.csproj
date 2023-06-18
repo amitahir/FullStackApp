@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FullStack.Database\FullStack.Database.csproj" />
+    <ProjectReference Include="..\FullStack.Interface\FullStack.Interface.csproj" />
+    <ProjectReference Include="..\FullStack.UoW\FullStack.UoW.csproj" />
+  </ItemGroup>
+
+</Project>
